@@ -1,0 +1,4 @@
+project: PROJECT
+target: libyaml_deconstructor_alt_fuzzer
+cmds:
+- cmd: /out/libyaml_deconstructor_alt_fuzzer
