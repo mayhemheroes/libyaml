@@ -1,0 +1,6 @@
+project: libyaml
+target: libyaml_reformatter_alt_fuzzer
+cmds:
+  - cmd: /mayhem/libyaml_reformatter_alt_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/yaml.dict

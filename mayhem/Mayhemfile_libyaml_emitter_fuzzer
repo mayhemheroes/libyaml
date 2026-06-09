@@ -1,0 +1,6 @@
+project: libyaml
+target: libyaml_emitter_fuzzer
+cmds:
+  - cmd: /mayhem/libyaml_emitter_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/yaml.dict
